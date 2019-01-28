@@ -24,3 +24,9 @@ p) parameters 168-191: dedicated parameters in time domain based of the analysis
 File descriptions
 genresTrain.csv - the training set
 genresTest2.csv - the test set
+
+Pipeline:
+1. Load the dataset (load_dataset.R)
+2. Select the best features (best_features.R)
+3. Choose the number features selected (features_optium.R)
+4. Create and apply model - Test data and validation (mlr_tunning.R)
